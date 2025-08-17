@@ -15,7 +15,9 @@ A **React-based Image Enhancer** that lets you upload, preview, and enhance imag
 - JavaScript (ES6+)
 
 ## 📷 Preview
-(Add a screenshot or GIF of your app here)
+<img width="1816" height="957" alt="Screenshot 2025-08-17 160902" src="https://github.com/user-attachments/assets/83f43f5c-055d-4ae3-a95f-c8fa37a88976" />
+
+
 
 ## ⚡ Installation
 ```bash
@@ -30,3 +32,12 @@ npm install
 
 # Run the project
 npm start
+
+
+🤝 Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you’d like to change.
+
+⭐ Show your support
+
+If you like this project, don’t forget to star this repo 🌟
