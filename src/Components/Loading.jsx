@@ -1,9 +1,27 @@
-
-
 const Loading = () => {
   return (
-    <div className="flex justify-center items-center h-full">
-      <div className="animate-spin border-4 border-t-transparent w-10 h-10 scale-150 rounded-full border-red-700"></div>
+    <div className="loading-container">
+
+      {/* Spinner */}
+      <div className="spinner-wrap">
+        <div className="spinner-track" />
+        <div className="spinner-arc" />
+        <div className="spinner-inner" />
+        <div className="spinner-core">
+          <div className="spinner-dot" />
+        </div>
+      </div>
+
+      {/* Label + dots */}
+      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '8px' }}>
+        <p className="loading-text">Enhancing</p>
+        <div className="loading-dots">
+          <span />
+          <span />
+          <span />
+        </div>
+      </div>
+
     </div>
   )
 }
